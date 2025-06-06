@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+section{
+background: rgba(110, 185, 219, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px);
+border: 1px solid rgba(190, 211, 221, 0.5);
+}
+
+.primary_button{
+  background: rgba(9, 9, 156, 1);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  cursor:pointer;
+  transition: all 0.3;
+  
+
+}
+.primary_button:hover{
+  background: rgba(9, 9, 156, 0.8);
+}
+
+.secondary_button{
+  background:gray;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  cursor:pointer;
+ transition: all 0.3;
+
+}
+
+.secondary_button:hover{
+  background:rgb(160, 160, 160);
+}
